@@ -1,11 +1,22 @@
 void main() {
-  var number=1;
+  //el _ antes de una variable indica que es privada
+  var _number=1;
+  conocerTipo(_number);
 print("Hola");
-  printNumero(number);
+      if (_number is int) printNumero(_number);
   }
-printNumero(int numero)
+
+ printNumero(int numero)
+
 {
+  
   print("Numero Concatenado: "+numero.toString());
   print("Numero como literal ${numero.toString()}"); 
     
+}
+conocerTipo(dynamic variable)
+{
+  if (variable is String) print('la variable es string');
+  else
+     if(variable is int) print('la variable es int');
 }
