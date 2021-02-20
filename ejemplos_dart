@@ -75,7 +75,70 @@ print(numero3.ceil());//REDONDEO A LA BAJA
   print("2+2 es ${2+2}");
        
      
-     
+      var listadenumeros = [1,5,14,7,51];
+  
+  print(listadenumeros.length);
+  
+   print('ELEMENTO DE LA POSICION 3 ---> ${listadenumeros[3]}'); //EMPIEZA A CONTAR DESDE EL 0
+  
+  listadenumeros[3]=125; //MODIFICANDO VALORES
+  
+   print('ELEMENTO DE LA POSICION 3 ---> ${listadenumeros[3]}'); //EMPIEZA A CONTAR DESDE EL 0
+  
+   var listadenumeros2 = const[10,50,104,107,510]; //CONST  HACE LA LISTA INMUTABLE
+  
+  
+  
+  //SETS (O CONJUNTOS)
+  
+  Set<String> sistemasoperativos={'WINDOS','MAC','CENTOS'}; //CREAMOS UN CONJUNTO DE STRING
+  
+  print(sistemasoperativos);
+  
+  sistemasoperativos.add("Red Hat"); //AÑADIMOS UN VALOR
+    print(sistemasoperativos);
+  
+  
+   Set<String> sistemasoperativos_moviles= const {'ANDROID','IOS'};  // POR EJEMPLO HACEMOS EL SET CONSTANTE
+  sistemasoperativos.addAll(sistemasoperativos_moviles); //AÑADIMOS UN CONJUNTO
+  
+  
+     print(sistemasoperativos);
+  
+  
+  //MAPS (arrays asociativos )
+  
+  var idiomas = {
+
+  'es':'español',
+  'en':'ingles',
+  'dk':'danes',
+  'nk':'noruego'
+  
+  };
+  
+  print(idiomas['es']);
+  
+var nuevos_idiomas={'fr':'frances','sw':'sueco'};
+  
+idiomas.addAll(nuevos_idiomas);
+  
+   print(idiomas['sw']);
+  
+  
+  var alumnos =Map();
+  
+    alumnos[1]='Juan';
+    alumnos[2]='Miguel';
+    alumnos[3]='Andrea';
+  
+  
+
+  print(alumnos[3]);
+  
+  
+  
+  
      
      
 }
