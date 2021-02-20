@@ -1,0 +1,11 @@
+void main() {
+  var number=1;
+print("Hola");
+  printNumero(number);
+  }
+printNumero(int numero)
+{
+  print("Numero Concatenado: "+numero.toString());
+  print("Numero como literal ${numero.toString()}"); 
+    
+}
