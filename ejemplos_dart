@@ -65,7 +65,15 @@ print(numero3.ceil());//REDONDEO A LA BAJA
   }  
      
      
-     
+  //STRING
+  
+  
+  print('Hola \' Mundo \''); //para escapar un string se usa \
+  var string1 = 'Hola'
+  ' Mundo';
+    print(string1);
+  print("2+2 es ${2+2}");
+       
      
      
      
