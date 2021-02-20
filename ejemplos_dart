@@ -19,4 +19,55 @@ conocerTipo(dynamic variable)
   if (variable is String) print('la variable es string');
   else
      if(variable is int) print('la variable es int');
+     
+   //se usa final para variables que no van a cambiar
+  final pi = 3.414213562;
+//const es como final pero que se calcula cuando se ejecuta el programa
+  
+  const pi_al_cuadrado = 2*1.414213;
+  //***NUMEROS***
+  
+  //la variable numerica de dart es num, sus principales hijos son int y double (numeros con decimales)
+  
+    num numero1 = 3;
+   int numero2 = -1;
+   double numero3= 1.1;
+  
+  //OPERADORES DE NUMEROS
+    
+print(numero2.abs()); //CALCULA EL ABSOLUTO
+  
+print(numero3.ceil());//REDONDEO A LA BAJA
+  
+  print(numero3.floor());//REDONDEO AL ALTA
+  
+  //STRING----> INT
+  
+  int numero4 = int.parse('-1');
+  print(numero4.abs());
+  
+    
+  //STRING----> DOUBLE
+  
+    double numero5 = double.parse('-1.5');
+  print(numero5.floor());
+  
+  //INT ----> STRING
+  
+  int n6 = 4;
+  print('NUMERO---->>${n6.toString()}');
+  
+
+//DOUBLE -----> STRING
+  double n7 = 5.168416516516549816164984695814;
+  String valor = n7.toStringAsFixed(2);//para coger decimales
+  print('NUMERO---->>${valor}');
+  }  
+     
+     
+     
+     
+     
+     
+     
 }
